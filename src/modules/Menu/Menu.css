@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    width: 60px;
+}
+
+.menu-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-mobile-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 12px 10px;
+}
+
+.menu-mobile-item > img {
+    display: block;
+    width: 28px;
+    height: 28px;
+}

@@ -1,0 +1,13 @@
+.ui-text-input {
+    width: 100%;
+    display: flex;
+    border-radius: 23px;
+    height: 34px;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 12px;
+}
+
+.ui-text-input:focus {
+    outline: none;
+}

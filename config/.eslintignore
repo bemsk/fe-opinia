@@ -1,0 +1,6 @@
+# exclude all except files inside src folder
+node_modules/
+_public/
+dist/
+config/
+scripts/

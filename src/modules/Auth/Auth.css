@@ -1,0 +1,73 @@
+.auth,
+.auth-mobile {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.auth-mobile {
+    flex-direction: column;
+    padding: 0px 16px;
+}
+
+.auth-mobile-displayed-logo,
+.auth-mobile-login-form {
+    width: 100%;
+}
+
+.auth-mobile-displayed-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0px;
+}
+
+.auth-mobile-displayed-logo > image {
+    width: 96px;
+}
+
+.auth-displayed-logo,
+.auth-login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.auth-displayed-logo > img {
+    width: 500px;
+    height: 500px;
+}
+
+.auth-login-form {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.auth-message-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.auth-message-text > span {
+    font-size: 14px !important;
+}
+.auth-message-text > img {
+    width: 145px;
+}
+
+.auth-message-text-mobile {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+.auth-message-text-mobile > strong {
+    font-weight: bold;
+}

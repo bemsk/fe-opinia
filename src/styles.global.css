@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* everything is border box!!! */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --white: #ffffff;
+    --gray: #a4a4a4;
+    --soft-gray: #f2f2f2;
+    --deep-gray: #6c6c6c;
+    --light-blue: #56a4d3;
+    --black: #020202;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}

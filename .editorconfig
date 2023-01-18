@@ -1,0 +1,18 @@
+# some editor have native support for editorconfig, and some require plugin to be installed
+# find out on https://editorconfig.org/
+
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# configurations below can be overridden by Prettier config file,
+# use .editorconfig instead to implement these configs to avoid confusion
+# these will be parsed by Prettier and added to the corresponding Prettier config
+
+end_of_line = lf
+indent_style = space
+indent_size = 4
+max_line_length = 120

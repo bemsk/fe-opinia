@@ -1,0 +1,16 @@
+.chat-conversation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+}
+
+.chat-conversation-date {
+    height: 35px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+}
